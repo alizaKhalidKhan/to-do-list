@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black; /* Set the background color to black */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center-align the container horizontally */
+    align-items: center; /* Center-align the container vertically */
+    min-height: 100vh; /* Ensure full viewport height */
+}
+
+.container {
+    max-width: 600px;
+    padding: 40px;
+    background-color: #111; /* Dark gray-black background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #ccc; /* Light gray text color */
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+button {
+    background-color: #b30000; /* Blood red background color */
+    color: #fff;
+    border: none;
+    border-radius: 10%;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #ddd; /* Darker gray background for tasks */
+    margin-bottom: 5px;
+    padding: 5px 10px;
+}
+
+button.delete {
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 3px 5px;
+    cursor: pointer;
+    float: right;
+}
